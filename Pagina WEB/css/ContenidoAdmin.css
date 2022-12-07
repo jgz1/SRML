@@ -1,0 +1,59 @@
+#contenidoCajas{
+   /*background-color: blue; */
+    overflow: hidden;
+}
+div.itemEquipo{
+    width: 40%;
+    height: 100%;
+}
+#cajaMantenimiento{
+    float: left;
+    margin: 5%;
+    margin-left: 6%;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+  
+ 
+}
+
+#cajaMantenimiento:hover{
+    transition: 1s;
+text-decoration:none;
+color: white;
+background-color:  #E9910D;
+transform: scale(1.025);
+}
+
+#itemEquipo{
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+}
+
+#itemEquipo:hover{
+    transition: 1s;
+text-decoration:none;
+color: white;
+background-color:  #E9910D;
+transform: scale(1.025);
+}
+
+#titulo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#mantenimiento{
+    padding: 10%;
+    margin-left: 5%;
+    width: 80%;
+    height: 80%;
+}
+

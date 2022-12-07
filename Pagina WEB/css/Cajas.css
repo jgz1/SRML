@@ -1,0 +1,210 @@
+@charset "utf-8";
+body{
+background-color: #D9D9D9;
+}
+
+#CabezaInicio {
+position:relative;
+background-color: #FFFFFF;
+border-style: solid;
+border-width: 5px;
+border-color: #FFFFFF;
+border-bottom-color: #ACACAC;
+height: 60px;
+width: 100%;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+#DescripcionInicio{
+display: flex;
+height: 30%;
+width: 60%;
+margin: 0px;
+padding: 12px; /*Anchura de la caja*/
+align-items: center;
+justify-content: center;
+font-weight: bold; 
+font-family: Sans-Serif; 
+font-size: 20px;
+color: white;
+border-radius: 15px;
+border-style: solid;
+border-width: 2px;
+border-color: #ACACAC;
+background-color: #3B7436;
+}
+
+#DescripcionLogoInicio{
+height: 50px;
+width: 5%;
+margin: 0px;
+}
+
+#DescripcionTituloInicio{
+height: 100%;
+width: 80%;
+}
+
+#Cabeza {
+display: flex;
+position:relative;
+background-color: #FFFFFF;
+border-style: solid;
+border-width: 5px;
+border-color: #FFFFFF;
+border-bottom-color: #ACACAC;
+height: 60px;
+width: 100%;
+text-align: center;
+align-items: center;
+justify-content: right;
+}
+
+#DescripcionPagina{
+display: flex; /*Acomoda en orden el logo y el texto*/
+height: 30%;
+width: 30%;
+margin: 0px;
+padding: 20px; /*Anchura de la caja*/
+align-items: center;
+justify-content: left;
+font-weight: bold; 
+font-family: Sans-Serif; /*Fuente de letra*/
+text-align: right;
+font-size: 20px;
+color: white;
+border-radius: 15px;
+border-style: solid;
+border-width: 5px;
+border-color: #ACACAC;
+/*border-bottom-color: #D9D9D9;*/
+background-color: #3B7436; /*Color verde caracteristico*/
+}
+
+#DescripcionLogo{
+height: 40px;
+width: 10%;
+margin: 15px;
+}
+
+#DescripcionTitulo{
+height: 100%;
+width: 80%;
+text-align: left;
+}
+
+#CabezaBotonesCaja1{
+display:flex;
+height: 100%;
+width: 50%;
+margin: 0px;
+text-align: center;
+justify-content: left; /*Posicion de los botones de cabezera*/
+}
+@media (min-width: 0px) and (max-width: 1100px) {
+   #CabezaBotonesCaja1 {
+      display:flex;
+	  flex-direction: column;
+   }
+}
+
+#CabezaBotonesCaja2{
+display:flex;
+height: 100%;
+width: 20%;
+margin: 0px;
+text-align: right;
+justify-content: right; /*Posicion de los botones de cabezera*/
+}
+@media (min-width: 0px) and (max-width: 1100px) {
+   #CabezaBotonesCaja2 {
+      display:flex;
+	  flex-direction: column;
+   }
+}
+
+#CabezaBoton1{
+height: 70%;
+width: 25%;
+margin: 2px;
+border-radius:10px;
+font-weight: bold; 
+text-align: center;
+color: Black;
+border-radius: 25px;
+border-style: solid;
+border-width: 4px;
+border-color: #FFFFFF;
+border-bottom-color: #E9910D;
+text-decoration:none;
+}
+#CabezaBoton1:hover{
+transition: 1s;
+color:black;
+border-bottom-color: #000000;
+transform: scale(1.025);
+}
+
+#CabezaBoton2{
+height: 70%;
+width: 25%;
+margin: 2px;
+border-radius:10px;
+font-weight: bold; 
+text-align: center;
+color: Black;
+border-radius: 25px;
+border-style: solid;
+border-width: 4px;
+border-color: #FFFFFF;
+text-decoration:none;
+}
+#CabezaBoton2:hover{
+transition: 1s;
+color:black;
+transform: scale(1.025);
+}
+/*@media (min-width: 0px) and (max-width: 1100px) {
+   #CabezaBoton {
+      height: 25%;
+      width: 100%;
+      margin: 1px;
+      font-weight: bold; 
+      border-radius:10px;
+      border-style: solid;
+      border-width: 3px;
+      border-color: white;
+      text-decoration:none;
+   }
+}*/
+
+#Boton1{
+height: 70%;
+width: 25%;
+margin: 2px;
+text-decoration:none;
+border-radius:10px;
+font-weight: bold; 
+text-align: center;
+color: black;
+background-color: #FFFFFF;
+border-radius: 25px;
+border-style: solid;
+border-width: 4px;
+border-color: #000000;
+}
+#Boton1:hover{
+transition: 1s;
+text-decoration:none;
+color: white;
+background-color: #000000;
+transform: scale(1.025);
+}
+
+table{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-collapse: separate;
+   border-spacing: 30px;
+ }

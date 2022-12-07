@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+#Contenedor{
+/*background-image: url("../images/fondo.jpg");*/
+height: 550px;
+width: 650px;
+align-items: center;
+justify-content: center;
+}
+
+#Caja_Arriba{
+display:flex;
+background-color: #FFFFFF;
+border-radius: 20px;
+height: 70px;
+width: 630px;
+margin: 20px;
+align-items: center;
+justify-content: center;
+}
+
+/*Puntos de la caja de arriba*/
+#PuntoCen{
+font-family: Sans-Serif;
+font-weight: bold; 
+font-size: 23px;
+text-shadow: 1px 1px 2px gray;
+width: 80%;
+}
+#PuntoIzq{
+background-color: #D9D9D9;
+height: 20px;
+width: 5%;
+border-radius: 30px;
+}
+#PuntoDer{
+background-color: #D9D9D9;
+height: 20px;
+width: 5%;
+border-radius: 30px;
+}
+/**/
+
+#Caja_Abajo{
+display:flex;
+background-color: #FFFFFF;
+border-radius: 20px;
+height: 100%;
+width: 630px;
+margin: 20px;
+}
+
+#Lado_izquierdo{ /*Acomoda la caja con los flex*/
+height: 100%; 
+width: 100%;
+margin: 10px;
+}
+
+#Lado_derecho{ /*Acomoda la caja con los flex*/
+height: 100%;
+width: 100%;
+margin:10px;
+}
+
+#CajaRegistro{
+display: flex;
+height: 35px;
+padding: 1px;
+margin: 10px;
+width: 80%;
+border-radius: 15px;
+background-color: #D9D9D9;
+}
+
+#TituloIzq{
+height: 100%;
+width: 40%;
+}
+
+#RellenadoDer{
+height: 100%;
+width: 60%;
+}
+
+#Boton_int{
+text-align: right;
+padding:10px;
+}
+
+#ContenedorInicio{
+display: flex;
+border-radius: 20px;
+height: 450px;
+width: 850px;
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+
+#CajaImagenInicio{
+display:flex;
+background-color: #FFFFFF;
+border-radius: 20px;
+border-style: solid; 
+border-width: 0px;
+border-bottom-width: 10px; 
+border-color: #D9D9D9; 
+border-bottom-color: #ACACAC;
+height: 100%;
+width: 60%;
+align-items: center;
+justify-content: center;
+}
+
+#CajaFormInicio{
+display:flex;
+border-radius: 20px;
+border-style: solid; 
+border-width: 0px;
+border-color: #D9D9D9; 
+border-bottom-width: 10px; 
+border-right-width: 10px; 
+border-bottom-color: #ACACAC;
+border-right-color: #ACACAC;
+background-color: #3B7436;
+height: 100%;
+width: 40%;
+}
+
+#ContenidoFormInicio{ /*Acomoda la caja con los flex*/
+height: 100%; 
+width: 100%;
+margin: 10px;
+}
+
+#TextoTitulo{
+font-size: 40px;
+font-weight: bold; 
+color: white;
+text-shadow: 1px 1px 3px black;
+font-family: Sans-Serif;
+}
+
+#TextoChico{
+text-align:left;
+font-size: 15px;
+font-weight: bold; 
+color: white;
+font-family: Sans-Serif;
+}
+
+h3{
+text-align:center;
+font-size: 15px;
+font-weight: bold; 
+color: white;
+font-family: Sans-Serif;
+}
